@@ -2,25 +2,25 @@
 const friends = [
     { name: "Onyankopon", image: "images/onyankopon.jpg" },
     { name: "Pervers", image: "images/pervers.jpg" },
-    { name: "Claire", image: "images/claire.jpg },
-    { name: "Maël", image: "images/mael.jpeg" }
+    { name: "Claire", image: "images/claire.jpg" },
+    { name: "Maël", image: "images/mael.jpeg" },
     { name: "Pervers", image: "images/pervers.jpg" },
-    { name: "Corentin", image: "images/corentin.jpg },
-    { name: "Benshrek", image: "images/benshrek.png" }
+    { name: "Corentin", image: "images/corentin.jpg" },
+    { name: "Benshrek", image: "images/benshrek.png" },
     { name: "Le Front national", image: "images/frontnational.jpg" },
-    { name: "Hentai main character", image: "images/hentaimaincharacter.jpg },
-    { name: "C'est qui?", image: "images/jenesaispasquic.jpg" }
-    { name: "Est-ce que je peux toucher tes cheveux?", image: "images/jepeuxtouchertescheveux.jpg" }
+    { name: "Hentai main character", image: "images/hentaimaincharacter.jpg" },
+    { name: "C'est qui?", image: "images/jenesaispasquic.jpg" },
+    { name: "Est-ce que je peux toucher tes cheveux?", image: "images/jepeuxtouchertescheveux.jpg" },
     { name: "Durkarog Agopian", image: "images/kikiculotte.jpg" },
-    { name: "C'est quoi un classique burger?", image: "images/kikiburger.jpg },
-    { name: "Maël x Together", image: "images/kpopeur.jpg" }
-    { name: "Lyxday", image: "images/lyxday.jpg" }
+    { name: "C'est quoi un classique burger?", image: "images/kikiburger.jpg" },
+    { name: "Maël x Together", image: "images/kpopeur.jpg" },
+    { name: "Lyxday", image: "images/lyxday.jpg" },
     { name: "Mathieu blanc x Hugo", image: "images/mathieuxhugo.jpg" },
-    { name: "Nathan Chad", image: "images/nathanchad.jpg},
-    { name: "Noir", image: "images/noir.jpg" }
-    { name: "Power x Reze", image: "images/powerxreze.jpg },
-    { name: "Garde le smile", image: "images/smile.jpg" }
-    { name: "Arabe", image: "images/arabe.jpg" }   
+    { name: "Nathan Chad", image: "images/nathanchad.jpg" },
+    { name: "Noir", image: "images/noir.jpg" },
+    { name: "Power x Reze", image: "images/powerxreze.jpg" },
+    { name: "Garde le smile", image: "images/smile.jpg" },
+    { name: "Arabe", image: "images/arabe.jpg" }    
 ];
 
 // --- 2. Sélection des éléments HTML ---
@@ -70,4 +70,5 @@ smashButton.addEventListener("click", nextFriend);
 
 // --- 5. Démarrage ---
 // Affiche le premier ami au chargement de la page
+
 showFriend(currentIndex);
