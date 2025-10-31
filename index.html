@@ -8,22 +8,21 @@
 </head>
 <body>
 
-    <div class="container">
-        <h1>Smash or Pass ?</h1>
-        
-        <div class="card">
-            <img id="friendImage" src="" alt="Photo d'ami">
+    <div class="game-container">
+        <div class="card" id="friendCard">
+            <img src="" alt="Photo d'ami" id="friendImage">
             <h2 id="friendName"></h2>
         </div>
 
         <div class="buttons">
-            <button id="passButton">❌ Pass</button>
-            <button id="smashButton">✅ Smash</button>
+            <button id="passButton" class="pass-btn">❌ Pass</button>
+            <button id="smashButton" class="smash-btn">✅ Smash</button>
         </div>
 
-        <div id="endScreen" class="hidden">
-            <h2>C'est fini !</h2>
-            <p>Vous avez vu tous vos amis.</p>
+        <div class="end-screen hidden" id="endScreen">
+            <h2>Partie terminée !</h2>
+            <p>Vous avez "Smash" <span id="smashCountDisplay">0</span> amis !</p>
+            <button id="restartButton">Rejouer</button>
         </div>
     </div>
 
